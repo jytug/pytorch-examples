@@ -1,7 +1,7 @@
 import torch
 
-dtype = torch.FloatTensor
-#dtype = torch.cuda.FloatTensor
+#dtype = torch.FloatTensor
+dtype = torch.cuda.FloatTensor
 
 N, D_in, H, D_out = 64, 1000, 100, 10
 
